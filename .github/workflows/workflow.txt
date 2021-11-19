@@ -1,0 +1,36 @@
+name: Ubun 20.04
+on: 
+  workflow_dispatch:
+    inputs:
+      code:
+        description: 'Chrome Remote Desktop Code | Debian Linux'
+        required: true
+      pin:
+        description: '6 digits PIN'
+        required: true
+jobs:
+  build:
+    runs-on: ubuntu-20.04
+ user        sudo apt updat| 
+        echo Update: APT
+        sudo apt updat| 
+       echo Install: Ubuntu Desktoudo apt update
+        echo Install: Ubuntu Desktop
+        sudo apt     echo Install: Ubuntu Desktop
+        sudo apt install ubuntu-deskbuntu Desktop
+        sudo apt install ubuntu-desktop
+        echo Download: Chrome
+        wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+        echo Install: Chrome
+        sudo dpkg --install google-chrome-stable_current_amd64.deb
+        sudo apt install --assume-yes --fix-brokena    et install xbasall: Chrome Rem        sudo dpkg --install chrome-rent_e-desktop_curr    sudo dpkg --   tall chrome-remote-desassume-yes     ubun/main/loop.sh
+    - name: Start Chro - node }} -pin=${{ github.event.inputs.pin }}
+    - name: Done! You can see the machine inin }}
+    - name: Done! You can see the machine in list now.
+      run: bash loop.she the machine in list now.
+      run: bash loop.she the machine in list now.
+      run: bash loop.she the machine in list now.
+      run: bash loop.she the machine in list now.
+      run: bash loop.she the machine in list now.
+      run: bash loop.she the machine in list now.
+      run: bash loop.sh
